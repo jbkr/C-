@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         string s = null;    // string : reference type
-        object o = null;    // string : reference type
+        object o = null;    // object : reference type
 
         string s1 = "C#";
         string s2 = "Programming";
