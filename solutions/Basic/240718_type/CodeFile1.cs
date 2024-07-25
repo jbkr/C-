@@ -25,7 +25,7 @@ class Test
     readonly int MAX;
     Test()
     {
-        MAX = 10;           // 객체 생성될 때 초기화
+        MAX = 10;           // 객체 생성될 때
     }
     void Func()
     {
