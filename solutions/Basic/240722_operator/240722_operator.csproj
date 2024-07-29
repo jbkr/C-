@@ -15,6 +15,12 @@
     <Compile Remove="CodeFile4.cs" />
     <Compile Remove="CodeFile5.cs" />
     <Compile Remove="CodeFile6.cs" />
+    <Compile Remove="CodeFile7.cs" />
+    <Compile Remove="CodeFile8.cs" />
+    <Compile Remove="CodeFile9.cs" />
+    <Compile Remove="CodeFile91.cs" />
+    <Compile Remove="CodeFile92.cs" />
+    <Compile Remove="CodeFile93.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +30,12 @@
     <None Include="CodeFile4.cs" />
     <None Include="CodeFile5.cs" />
     <None Include="CodeFile6.cs" />
+    <None Include="CodeFile7.cs" />
+    <None Include="CodeFile8.cs" />
+    <None Include="CodeFile9.cs" />
+    <None Include="CodeFile91.cs" />
+    <None Include="CodeFile92.cs" />
+    <None Include="CodeFile93.cs" />
   </ItemGroup>
 
 </Project>
