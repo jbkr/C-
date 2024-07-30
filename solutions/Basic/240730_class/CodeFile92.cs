@@ -38,6 +38,17 @@ class Position
         this.y = y;
     }
 }
+
+class PlayerManager
+{
+    // singleton
+
+    Player[] players;
+    // Add
+    // Remove
+    // Find
+}
+
 class Program
 {
     static void Main(string[] args)
@@ -54,5 +65,14 @@ class Program
             new Player("Ironman", 2, new Position(5, 10)),
             new Player("Spiderman", 5, new Position(10, 10))
         };
+
+        players[1].Move();
+        // player manager
+        // singleton
+
+        PlayerManager playerManager = new PlayerManager();
+        playerManager.Add(new Player("Superman", 1, new Position(0, 0)));
+
+        playerManager.Instance().Add(new Player("Superman", 1, new Position(0, 0)));
     }
 }
