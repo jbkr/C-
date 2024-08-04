@@ -8,7 +8,7 @@ interface IRender
     void Render();
 }
 
-class Gimic : IMove, IRender
+class Gimmick : IMove, IRender
 {
     public void Move() { }
 
