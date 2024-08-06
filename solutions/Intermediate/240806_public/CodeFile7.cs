@@ -1,0 +1,7 @@
+﻿namespace Property
+{
+    class BirthdayInfo
+    {
+
+    }
+}
