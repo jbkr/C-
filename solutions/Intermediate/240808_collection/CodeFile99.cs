@@ -1,7 +1,7 @@
 ﻿// yield
 // IEnumerable + IEnumerator
 // coroutine ( 협동 루틴 - 왔다 갔다 )
-// routine - 하나의 프로세스 ( 메인 루틴, 서브 루틴 )
+// routine - 하나의 프로세스 ( 메인 루틴(main method), 서브 루틴(function) )
 // yield return
 // yield break
 
