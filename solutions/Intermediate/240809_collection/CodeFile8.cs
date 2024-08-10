@@ -15,7 +15,7 @@ class Program: Monobehavior
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escaple))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             // 3초 뒤에 "Hello" 출력
             co = StartCoroutine("Func");
