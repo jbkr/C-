@@ -16,7 +16,7 @@ class Program
 		catch (DivideByZeroException e)
 		{
             //e.Message
-            Console.WriteLine(e.StackTrace);    // BreakPoint   // F9 -> F5
+            Console.WriteLine(e.StackTrace);    // BreakPoint( F9 ) -> debug ( F5 )
         }
     }
 }
