@@ -19,6 +19,7 @@
     <Compile Remove="CodeFile8.cs" />
     <Compile Remove="CodeFile9.cs" />
     <Compile Remove="CodeFile91.cs" />
+    <Compile Remove="CodeFile92.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +33,7 @@
     <None Include="CodeFile8.cs" />
     <None Include="CodeFile9.cs" />
     <None Include="CodeFile91.cs" />
+    <None Include="CodeFile92.cs" />
   </ItemGroup>
 
 </Project>
