@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240820_delegate", "240820_d
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240821_lambda", "240821_lambda\240821_lambda.csproj", "{0F264411-565F-4C91-8DB2-C2BE4E615969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "240822_linq", "240822_linq\240822_linq.csproj", "{7543E94C-B6C6-4B02-A498-692A378694A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240822_linq", "240822_linq\240822_linq.csproj", "{7543E94C-B6C6-4B02-A498-692A378694A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "240823_LINQ", "240823_LINQ\240823_LINQ.csproj", "{34306663-37E2-4B34-82F8-BE7AFF14B487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{7543E94C-B6C6-4B02-A498-692A378694A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7543E94C-B6C6-4B02-A498-692A378694A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7543E94C-B6C6-4B02-A498-692A378694A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34306663-37E2-4B34-82F8-BE7AFF14B487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34306663-37E2-4B34-82F8-BE7AFF14B487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34306663-37E2-4B34-82F8-BE7AFF14B487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34306663-37E2-4B34-82F8-BE7AFF14B487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

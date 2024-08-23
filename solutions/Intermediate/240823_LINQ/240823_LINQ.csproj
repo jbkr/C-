@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_240823_LINQ</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CodeFile1.cs" />
+    <Compile Remove="CodeFile2.cs" />
+    <Compile Remove="CodeFile3.cs" />
+    <Compile Remove="CodeFile4.cs" />
+    <Compile Remove="CodeFile5.cs" />
+    <Compile Remove="CodeFile6.cs" />
+    <Compile Remove="CodeFile7.cs" />
+    <Compile Remove="CodeFile8.cs" />
+    <Compile Remove="CodeFile9.cs" />
+    <Compile Remove="CodeFile91.cs" />
+    <Compile Remove="CodeFile92.cs" />
+    <Compile Remove="CodeFile93.cs" />
+    <Compile Remove="CodeFile94.cs" />
+    <Compile Remove="CodeFile95.cs" />
+    <Compile Remove="CodeFile96.cs" />
+    <Compile Remove="CodeFile97.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="CodeFile1.cs" />
+    <None Include="CodeFile2.cs" />
+    <None Include="CodeFile3.cs" />
+    <None Include="CodeFile4.cs" />
+    <None Include="CodeFile5.cs" />
+    <None Include="CodeFile6.cs" />
+    <None Include="CodeFile7.cs" />
+    <None Include="CodeFile8.cs" />
+    <None Include="CodeFile9.cs" />
+    <None Include="CodeFile91.cs" />
+    <None Include="CodeFile92.cs" />
+    <None Include="CodeFile93.cs" />
+    <None Include="CodeFile94.cs" />
+    <None Include="CodeFile95.cs" />
+    <None Include="CodeFile96.cs" />
+    <None Include="CodeFile97.cs" />
+  </ItemGroup>
+
+</Project>
