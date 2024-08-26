@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_240822_1_LINQ</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="00_Linq.cs" />
+    <Compile Remove="01_LINQ.cs" />
+    <Compile Remove="02_SimpleLinq.cs" />
+    <Compile Remove="02_SimpleLinq1.cs" />
+    <Compile Remove="02_SimpleLinq2.cs" />
+    <Compile Remove="03_FromFrom.cs" />
+    <Compile Remove="04_GroupBy.cs" />
+    <Compile Remove="05_Join.cs" />
+    <Compile Remove="05_Join2.cs" />
+    <Compile Remove="06_MinMaxAvg.cs" />
+    <Compile Remove="07_LINQ.cs" />
+    <Compile Remove="07_LINQ2.cs" />
+    <Compile Remove="10_From.cs" />
+    <Compile Remove="11 Select.cs" />
+    <Compile Remove="12 Take.cs" />
+    <Compile Remove="13 OrderBy.cs" />
+    <Compile Remove="14 GroupBy.cs" />
+    <Compile Remove="14 GroupBy2.cs" />
+    <Compile Remove="15 Distinct.cs" />
+    <Compile Remove="16 First.cs" />
+    <Compile Remove="16 ToArray.cs" />
+    <Compile Remove="17 Range.cs" />
+    <Compile Remove="18 Quantifiers.cs" />
+    <Compile Remove="19 Count.cs" />
+    <Compile Remove="20 Aggregate.cs" />
+    <Compile Remove="21 Sequence.cs" />
+    <Compile Remove="22 Join.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="00_Linq.cs" />
+    <None Include="01_LINQ.cs" />
+    <None Include="02_SimpleLinq.cs" />
+    <None Include="02_SimpleLinq1.cs" />
+    <None Include="02_SimpleLinq2.cs" />
+    <None Include="03_FromFrom.cs" />
+    <None Include="04_GroupBy.cs" />
+    <None Include="05_Join.cs" />
+    <None Include="05_Join2.cs" />
+    <None Include="06_MinMaxAvg.cs" />
+    <None Include="07_LINQ.cs" />
+    <None Include="07_LINQ2.cs" />
+    <None Include="10_From.cs" />
+    <None Include="11 Select.cs" />
+    <None Include="12 Take.cs" />
+    <None Include="13 OrderBy.cs" />
+    <None Include="14 GroupBy.cs" />
+    <None Include="14 GroupBy2.cs" />
+    <None Include="15 Distinct.cs" />
+    <None Include="16 First.cs" />
+    <None Include="16 ToArray.cs" />
+    <None Include="17 Range.cs" />
+    <None Include="18 Quantifiers.cs" />
+    <None Include="19 Count.cs" />
+    <None Include="20 Aggregate.cs" />
+    <None Include="21 Sequence.cs" />
+    <None Include="22 Join.cs" />
+  </ItemGroup>
+
+</Project>
