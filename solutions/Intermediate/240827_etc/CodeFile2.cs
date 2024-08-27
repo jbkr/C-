@@ -1,8 +1,4 @@
-﻿using Microsoft.Scripting;
-using Microsoft.Scripting.Hosting;
-using IronPython.Hosting;
-
-class Program
+﻿class Program
 {
     static void Func(object obj)
     {
@@ -16,8 +12,8 @@ class Program
     static void Main(string[] args)
     {
         // Thread
-        Thread thread = new Thread(() => Func("Good"));
-        thread.Start();
+        Thread t1 = new Thread(() => Func("param"));
+        t1.Start();
 
         // Main
         for (int i = 0; i < 10; i++)
@@ -26,12 +22,7 @@ class Program
             Thread.Sleep(10);
         }
 
-        thread.Join();
-
+        t1.Join();
         Console.WriteLine("End");
-
-
-
-
     }
 }

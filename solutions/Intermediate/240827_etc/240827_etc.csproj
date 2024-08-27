@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>_240826_etc</RootNamespace>
+    <RootNamespace>_240827_etc</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -36,10 +36,6 @@
     <None Include="CodeFile91.cs" />
     <None Include="CodeFile92.cs" />
     <None Include="CodeFile93.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="IronPython" Version="2.7.9" />
   </ItemGroup>
 
 </Project>
