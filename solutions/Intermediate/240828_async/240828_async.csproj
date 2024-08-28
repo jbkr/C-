@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_240828_async</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CodeFile1.cs" />
+    <Compile Remove="CodeFile2.cs" />
+    <Compile Remove="CodeFile3.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="CodeFile1.cs" />
+    <None Include="CodeFile2.cs" />
+    <None Include="CodeFile3.cs" />
+  </ItemGroup>
+
+</Project>
