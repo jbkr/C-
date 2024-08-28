@@ -25,9 +25,16 @@ class Program
         Task<long>[] tasks = new Task<long>[4];
         for (int i = 0; i < 4; i++)
         {
-            tasks[i] = Task<long>.Run(() => { return 1L; });
+            tasks[i] = Task<long>.Run(() => Sum(25000 * i + 1, 25000 * (i + 1)));
             tasks[i].Wait();
         }
+
+        long sum = 0;
+        for (int i = 0; i < 4; i++)
+        {
+            sum += tasks[i].Result;
+        }
+        Console.WriteLine(sum);
 
         Task<long> task1 = Task<long>.Run(() => Sum(1, 25000));
         Task<long> task2 = Task<long>.Run(() => Sum(25001, 50000));
@@ -41,7 +48,7 @@ class Program
         long sum2 = task2.Result;
         long sum3 = task3.Result;
         long sum4 = task4.Result;
-        long sum = sum1 + sum2 + sum3 + sum4;
-        Console.WriteLine(sum);
+        long sum5 = sum1 + sum2 + sum3 + sum4;
+        Console.WriteLine(sum5);
     }
 }

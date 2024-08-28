@@ -8,7 +8,7 @@ class Program
         Console.WriteLine("Func method");
     }
 
-    static void Run(object data)
+    static void Run(object? data)
     {
         Console.WriteLine(data == null ? "NULL" : data);
     }
@@ -31,8 +31,8 @@ class Program
         task3.Wait();
         Console.WriteLine(task3.Result);
 
-        Task.Factory.StartNew(Func);
+        Task.Factory.StartNew(Func).Wait();
 
-        Task.Factory.StartNew(new Action<object>(Run), "1st");
+        Task.Factory.StartNew(new Action<object?>(Run), "1st").Wait();
     }
 }
