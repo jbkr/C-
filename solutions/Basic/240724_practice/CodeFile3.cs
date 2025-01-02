@@ -2,8 +2,8 @@
 {
     static void Main(string[] args)
     {
-        bool state=true;
-        while(state)
+        bool state = true;
+        while (state)
         {
             ConsoleKeyInfo info = Console.ReadKey();
             switch (info.Key)

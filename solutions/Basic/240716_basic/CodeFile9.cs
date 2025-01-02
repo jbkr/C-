@@ -19,10 +19,10 @@ class Program
         Console.WriteLine(String.Format("{0:#,0}", won));
 
         Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd"));
-        while (true)
-        {
-            Console.WriteLine(DateTime.Now.ToString("HH:mm:ss"));
-        }
+        //while (true)
+        //{
+        //    Console.WriteLine(DateTime.Now.ToString("HH:mm:ss"));
+        //}
         // .Net에 구현된 클래스
     }
 }
