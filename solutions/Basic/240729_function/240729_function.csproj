@@ -22,10 +22,12 @@
     <Compile Remove="CodeFile9.cs" />
     <Compile Remove="CodeFile91.cs" />
     <Compile Remove="CodeFile92.cs" />
+    <Compile Remove="review.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Cat.cs" />
+    <None Include="Class1.cs" />
     <None Include="CodeFile1.cs" />
     <None Include="CodeFile2.cs" />
     <None Include="CodeFile3.cs" />
@@ -37,10 +39,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Class1.cs" />
     <None Include="CodeFile9.cs" />
     <None Include="CodeFile91.cs" />
     <None Include="CodeFile92.cs" />
+    <None Include="review.cs" />
   </ItemGroup>
 
 </Project>
