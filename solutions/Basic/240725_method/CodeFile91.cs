@@ -49,27 +49,27 @@ class Program
         }
     }
 
-    static int Sum3()
-    {
-        while (true)
-        {
-            bool b1 = int.TryParse(Console.ReadLine(), out int num1);
-            bool b2 = int.TryParse(Console.ReadLine(), out int num2);
+    //static int Sum3()
+    //{
+    //    while (true)
+    //    {
+    //        bool b1 = int.TryParse(Console.ReadLine(), out int num1);
+    //        bool b2 = int.TryParse(Console.ReadLine(), out int num2);
 
-            if (b1 == false || b2 == false)
-            {
-                Console.WriteLine("다시 입력하세요");
-            }
-        }
-        bool b1=int.TryParse(Console.ReadLine(), out int num1);
-        bool b2=int.TryParse(Console.ReadLine(), out int num2);
+    //        if (b1 == false || b2 == false)
+    //        {
+    //            Console.WriteLine("다시 입력하세요");
+    //        }
+    //    }
+    //    bool b1=int.TryParse(Console.ReadLine(), out int num1);
+    //    bool b2=int.TryParse(Console.ReadLine(), out int num2);
         
-        if(b1==false||b2==false)
-        {
-            Console.WriteLine("다시 입력하세요");
-        }
-        return num1 + num2;
-    }
+    //    if(b1==false||b2==false)
+    //    {
+    //        Console.WriteLine("다시 입력하세요");
+    //    }
+    //    return num1 + num2;
+    //}
 
     static void Main(string[] args)
     {
