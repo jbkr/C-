@@ -3,12 +3,19 @@
 
 class Parent
 {
-    public void Method() { }
+    public void Method()
+    {
+        Console.WriteLine("parent");
+    }
 }
+
 
 class Child : Parent
 {
-    public void Method() { }        // new 생략
+    public void Method()
+    {
+        Console.WriteLine("child");
+    }        // new 생략
 }
 
 class Program
