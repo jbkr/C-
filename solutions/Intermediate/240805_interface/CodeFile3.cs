@@ -18,9 +18,9 @@ class Program
     static void Main(string[] args)
     {
         Item item1 = new Item(1);
-        Item item2 = new Item(2);
+        Item item2 = new Item(5);
         int result = item1.CompareTo(item2);
-
+        Console.WriteLine(result);
         // item1 > item2
         //Console.WriteLine(item1.CompareTo(item2));
         int n1 = 1;

@@ -25,7 +25,7 @@ class Program
         Console.WriteLine(obj1.A + " " + obj1.B);
         Console.WriteLine(obj3.A + " " + obj3.B);
 
-        Alpha obj4 = obj1.Clone() as Alpha;     // Clone()  // ICloneable
+        //Alpha obj4 = obj1.Clone() as Alpha;     // Clone()  // ICloneable
 
     }
 }
