@@ -17,6 +17,9 @@
 
     static void Main(string[] args)
     {
-
+        BirthdayInfo birthdayInfo = new BirthdayInfo();
+        birthdayInfo.Name = "JB";
+        birthdayInfo.Birthday = new DateTime(1976,03,22);
+        Console.WriteLine(birthdayInfo.Age);
     }
 }
