@@ -7,7 +7,7 @@ class Program
 
     delegate int CompareFunc<T>(T a, T b);
 
-    static void BubbleSort<T>(int[] array, CompareFunc<T> func)     // delegate
+    static void BubbleSort<T>(T[] array, CompareFunc<T> func)     // delegate
     {
         for (int i = 0; i < array.Length - 1; i++)
         {
@@ -15,9 +15,9 @@ class Program
             {
                 if (func(array[j], array[j + 1]) > 0)
                 {
-                    int temp = array[j + 1];
+                    T temp = array[j + 1];
                     array[j + 1] = array[j];
-                    array[j + 1] = temp;
+                    array[j] = temp;
                 }
             }
         }
@@ -26,7 +26,7 @@ class Program
     static void Main(string[] args)
     {
         int[] array = { 3, 7, 4, 2, 10 };
-        BubbleSort(array, AscendCompare);
+        BubbleSort<int>(array, AscendCompare);
         foreach (var item in array)
         {
             Console.WriteLine(item);

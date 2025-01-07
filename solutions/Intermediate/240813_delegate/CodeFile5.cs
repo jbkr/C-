@@ -13,8 +13,8 @@ class Program
     static void Main(string[] args)
     {
         ThereIsFire fire = Call119;
-        fire += Escape;
         fire += ShoutOut;
+        fire += Escape;
         fire();
         fire -= Call119;
         fire();
