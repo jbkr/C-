@@ -69,12 +69,12 @@ class Program
         Print((arr) =>
         {
             int sum = 0;
-            foreach (int i in ints1)
+            foreach (int i in arr)
             {
                 sum += i;
             }
             return sum;
-        }, ints);
+        }, ints1);
 
     }
 
@@ -91,25 +91,11 @@ class Calculator
     int b;
     char c;
 
-    Action<int, int, char> func;
+    //Action<int, int, char> func;
 
-    public void Calculation(int a, int b, char c)
+    public void Calculation(int a, int b, char c, Action<int, int, char> func)
     {
-        switch (c)
-        {
-            case '+':
-                func = (a, b, '+')=>                Console.WriteLine(a + b);
-                break;
-            case '-':
-                Console.WriteLine(a - b);
-                break;
-            case '*':
-                Console.WriteLine(a * b);
-                break;
-            case '/':
-                Console.WriteLine(a / b);
-                break;
-        }
+        func(a, b, c);
     }
 }
 
@@ -117,7 +103,7 @@ class Calc
 {
     int a = 0;
     int b = 0;                  // 두 숫자
-    Func<int, int, int> fn;     // 연산방식
+    //Func<int, int, int> fn;     // 연산방식
     public Calc() { }
     public Calc(int a, int b)
     {

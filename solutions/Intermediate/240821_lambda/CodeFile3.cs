@@ -37,7 +37,7 @@ class Program
     static void Main(string[] args)
     {
         //MyWindow myWindow = new MyWindow(CallMe);
-        MyWindow myWindow = new MyWindow(() => { Console.WriteLine("Enter"); });
+        MyWindow myWindow = new MyWindow(() => { Console.WriteLine("Yes"); }, () => { Console.WriteLine("No"); });
         myWindow.Update();
     }
 }
