@@ -23,7 +23,6 @@
     <Compile Remove="07_LINQ2.cs" />
     <Compile Remove="10_From.cs" />
     <Compile Remove="11 Select.cs" />
-    <Compile Remove="12 Take.cs" />
     <Compile Remove="13 OrderBy.cs" />
     <Compile Remove="14 GroupBy.cs" />
     <Compile Remove="14 GroupBy2.cs" />
@@ -53,7 +52,6 @@
     <None Include="07_LINQ2.cs" />
     <None Include="10_From.cs" />
     <None Include="11 Select.cs" />
-    <None Include="12 Take.cs" />
     <None Include="13 OrderBy.cs" />
     <None Include="14 GroupBy.cs" />
     <None Include="14 GroupBy2.cs" />
