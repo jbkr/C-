@@ -47,8 +47,12 @@ class MainApp
         //  numbers 배열의 모든 요소를 double 로 형변환합니다.
 
         object[] numbers = { null, 1.0, "two", 3, "four", 5, "six", 7.0 };
-        var doubles = numbers.OfType<double>();
-        // doubles = { 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 };
+        var doubles1 = numbers.OfType<double>();
+        foreach ( var item in doubles1 )
+        {
+            Console.WriteLine(item);
+        }
+        // doubles1 = { 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 };
 
     }
 

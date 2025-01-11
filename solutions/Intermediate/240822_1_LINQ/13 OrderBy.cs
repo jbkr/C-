@@ -103,7 +103,7 @@ class MainApp
         // }
 
     }
-
+    // expression body definition
     public class CaseInsensitiveComparer : IComparer<string> 
     { 
         public int Compare(string x, string y) => 

@@ -49,37 +49,37 @@ class MainApp
         //Sum
 
         //집합 내 모든 원소 더하기
-        int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-        double numSum = numbers.Sum();
+        int[] numbers1 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+        double numSum = numbers1.Sum();
         // numSum = 45
                         
         //집합 내 원소를 활용하여 더하기
-        string[] words = { "cherry", "apple", "blueberry" };
-        double totalChars = words.Sum(w => w.Length);
+        string[] words1 = { "cherry", "apple", "blueberry" };
+        double totalChars = words1.Sum(w => w.Length);
         // totalChars = 20
 
 
         //Max
 
         //집합 내에 최댓값 찾기
-        int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-        int maxNum = numbers.Max();
+        int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+        int maxNum = numbers2.Max();
         // maxNum = 9
             
         //집합 내 원소를 사용하여 최댓값 찾기
-        string[] words = { "cherry", "apple", "blueberry" };
-        int longestLength = words.Max(w => w.Length);
+        string[] words2 = { "cherry", "apple", "blueberry" };
+        int longestLength = words2.Max(w => w.Length);
         // longestLength = 9
 
 
         //그룹 내에서 최댓값 찾기
-        List<Product> products = GetProductList();
-        var categories = from p in products
+        List<Product> products1 = GetProductList();
+        var categories1 = from p in products1
                             group p by p.Category into g
                             select (Category: g.Key, MostExpensivePrice: g.Max(p => p.UnitPrice));
 
-        List<Product> products = GetProductList();
-        var categories = from p in products
+        List<Product> products2 = GetProductList();
+        var categories2 = from p in products2
                             group p by p.Category into g
                             let maxPrice = g.Max(p => p.UnitPrice)
                             select (Category: g.Key, MostExpensiveProducts: g.Where(p => p.UnitPrice == maxPrice));
