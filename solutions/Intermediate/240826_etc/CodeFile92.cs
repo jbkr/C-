@@ -24,7 +24,8 @@
             Thread.Sleep(10);
         }
 
-        t1.Join();
+        //t1.Join();
+        t2.Join();
         Console.WriteLine("End");
     }
 }

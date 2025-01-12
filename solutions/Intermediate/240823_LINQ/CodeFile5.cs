@@ -11,6 +11,10 @@ class Program
         int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
         int[] numbersB = { 1, 3, 5, 7, 8 };
         var uniqueNumbers = numbersA.Union(numbersB);   // 합집합 만들기
+        foreach (var item in uniqueNumbers)
+        {
+            Console.WriteLine(item);
+        }
 
         int[] numbers1 = { 0, 2, 4, 5, 6, 8, 9 };
         int[] numbers2 = { 1, 3, 5, 7, 8 };
