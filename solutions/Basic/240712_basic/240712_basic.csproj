@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CodeFile0.cs" />
     <Compile Remove="CodeFile1.cs" />
     <Compile Remove="CodeFile2.cs" />
     <Compile Remove="CodeFile3.cs" />
@@ -21,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="CodeFile0.cs" />
     <None Include="CodeFile1.cs" />
     <None Include="CodeFile2.cs" />
     <None Include="CodeFile3.cs" />

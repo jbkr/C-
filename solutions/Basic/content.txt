@@ -1,0 +1,121 @@
+=basic
+1. Console input, output
+-{}, $, @
+-parse, tryparse
+-unicode
+
+2. Console class, String class
+-format
+
+3. Type
+-signed, unsigned
+-float
+-object
+
+4. Data Type
+-primitive data type, complex data type
+-value type, reference type
+-int<=>string
+-[]
+-string
+-DateTime
+
+=enum
+5. constants
+-enum
+-readonly
+-const
+
+6. var
+
+7. nullable type
+-?
+-Nullable<>
+
+8. float
+-decimal
+
+9. boxing, unboxing
+-object<=>int
+-int<=>string
+-string<=>char
+-double<=>string
+
+=type
+10. complex data type
+-class
+-GetType()
+-is
+-struct
+
+11. operator
+-/=>float casting
+-priority
+-?,??(null),??=
+-shift(<<,>>)
+-bit(&,|,^,~)
+-switch(obj)
+
+=practice
+12. string
+-upper,lower
+-compareto,compare
+-substring,split,join,tochararray
+
+=method
+13. method
+-base,static
+-value copy,reference copy
+-ref
+-out
+-tryparse
+
+=function
+14. method
+-overloading
+-params
+-named parameter
+-optional parameter
+-local function
+-ToLowerString(ToLower)
+
+=function
+15. class
+-oop
+-namespace
+-structure
+-internal
+-property
+-this,this()
+
+=class
+16. class
+-encapsulation
+-garbage collector
+-shallow copy,deep copy
+-static member, static method
+-static constructor
+-static class
+-private constructor,singleton
+-PlayerManager
+
+=class
+17. inheritance
+-base,this
+-constructor
+-type casting
+-is,as
+-animal,zookeeper
+-item,inventory
+-if~is
+-overriding
+-virtual,override
+-without casting
+-polymorphism
+-new
+-array,list
+-sealed
+
+=class
+18. class
+-

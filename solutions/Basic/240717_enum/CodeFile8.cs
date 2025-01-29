@@ -5,6 +5,7 @@
         // _(밑줄)을 사용하여 자리수를 분리
         //int 백만 = 1000000;
         int 백만 = 1_000_000;
+        Console.WriteLine(백만);
         int hexa = 0x_FF_00;
         int bin = 0b0000_0111_0011;
 
@@ -45,7 +46,9 @@
         long l = 100L;
         double d = 3;
         float f = 3_000.5f;
+        Console.WriteLine(f);
         decimal money = 3_000.5m;
+        Console.WriteLine(money);
     }
 
 }

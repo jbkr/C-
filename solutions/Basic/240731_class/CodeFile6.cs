@@ -30,7 +30,7 @@ class Program
         }
 
         //Cat cat = (Cat)mammal;      // 위험
-        Cat cat = mammal as Cat;
+        Cat? cat = mammal as Cat;
         if (cat != null)
         {
             cat.Meow();
