@@ -1,0 +1,8 @@
+=interface
+1. IComparable
+-sorting
+-CompareTo
+-int.CompareTo
+-List<T>.sort()
+-string.CompareTo
+-Array.Sort(Array)

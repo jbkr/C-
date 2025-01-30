@@ -114,8 +114,29 @@
 -polymorphism
 -new
 -array,list
--sealed
+-sealed class,sealed method
 
 =class
 18. class
--
+-abstract class,abstract method
+-upcasting
+-nested class,member class
+-partial class
+-extension method
+-struct vs class => value type
+-tuple
+
+=class
+19. interface
+-abstract class
+-implement method
+-inheritance
+-automatic overriding
+-multiple inheritance
+-no member field
+-no body only declaration
+-Move() => IMove
+-Render() => IRender
+-Run() => IRunnable
+-Fly() => IFlyable
+-standardisation

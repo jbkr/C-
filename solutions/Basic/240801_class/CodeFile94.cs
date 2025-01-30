@@ -17,6 +17,8 @@
         var person = ("test", 5);       // 2개의 데이터를 담는 용도       *** (  ,  ,  ,  ) ***
         //var player = ("전사", 10, 'S');
         var player = (Name: "전사", Level: 10, Grade: 'S');       // 명명된 선언
+        Console.WriteLine(person.Item1);
+        Console.WriteLine(person.Item2);
 
         Console.WriteLine(player.Item1);
         Console.WriteLine(player.Item2);
