@@ -1,8 +1,24 @@
 =interface
 1. IComparable
 -sorting
--CompareTo
+-CompareTo()
 -int.CompareTo
 -List<T>.sort()
 -string.CompareTo
 -Array.Sort(Array)
+
+2. IComparer
+-Array.Sort(Array,comparer)
+-Compare(x,y)
+-x.CompareTo(y)
+
+3. IDisposable
+-open,close
+-Dispose()
+-using()
+
+4. ICloneable
+-deep copy
+-Clone()
+-Instantiate()
+-object initializer{}
