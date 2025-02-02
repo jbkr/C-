@@ -23,5 +23,7 @@
         MyClass obj = new MyClass();
         obj.Name = "test";  // Error
         obj.Level = 200;    // 100
+        Console.WriteLine(obj.Name);
+        Console.WriteLine(obj.Level);
     }
 }

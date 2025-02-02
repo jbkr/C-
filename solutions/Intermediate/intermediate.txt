@@ -22,3 +22,34 @@
 -Clone()
 -Instantiate()
 -object initializer{}
+
+=public
+5. property
+-member field
+-hiding,encapsulation
+-getter,setter
+-property(public)
+-public->private->public
+-only get
+-initialize=
+-constructor initialize{}
+-member method
+-Birthday,Age
+-anonymous type
+--new{}
+--property
+--readonly
+-interface member
+-abstract class member
+-expression-bodied member
+--member=>expression
+
+=collection
+6. array
+-[]
+-Array.Sort(),Reverse(),ForEach()
+-multidimensional [,]
+-Length vs GetLength()
+-jagged array [][]
+
+
